@@ -1,0 +1,133 @@
+@import url("base.css");
+header{
+	width: 100%;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	
+}
+header .box1{
+	width: 1190px;
+	height: 90px;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .box1 .a1{
+	display: block;
+	width: 241px;
+	height: 40px;
+}
+header .box1 .a1 .box11{
+	
+	width: 241px;
+	height: 40px;
+	background: url("../img/tu1.png") no-repeat center;
+	background-size: 241px 40px;
+}
+header .box1 .box12{
+	width: 70px;
+	height: 70px;
+	background: url("../img/tu2.jpg") no-repeat center;
+	background-size: 70px 70px;
+}
+nav{
+	width: 100%;
+	height: 48px;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+}
+nav .box2{
+	width: 1190px;
+	height: 48px;
+	
+
+}
+nav .box2 ul{
+	display: block;
+	width: auto;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+nav .box2 ul li{
+	width: 128px;
+	height: 100%;
+}
+nav .box2 ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #c4c4c4;
+	font-size: 14px;
+	line-height: 48px;
+	text-align: center;
+}
+nav .box2 ul li a:hover{
+	color: #fff;
+}
+.section1{
+	width: 1188px;
+	height: 941px;
+	box-sizing: border-box;
+	border: 1px solid #808080;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section1 .box1{
+	width: 800px;
+	height: 781px;
+	
+}
+.section1 .box1 .b11{
+	width: 100%;
+	height: 55px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.section1 .box1 .b11 h2{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 24px;
+	color: #191919;
+}
+.section1 .box1 .b11 h3{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #999;
+}
+.section1 .box1 .b12{
+	width: 100%;
+	height: 146px;
+	margin-top: 17px;
+	
+}
+.section1 .box1 .b12 h4{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 13px;
+	color: rgb(105, 105, 105);
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+.section1 .box1 .b13{
+	width: 100%;
+	height: 534px;
+	background: url("../img/tu8.jpg") no-repeat center;
+	background-size: 100% 100%;
+}
+.section2{
+	width: 100%;
+	height: 200px;
+}

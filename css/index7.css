@@ -1,0 +1,214 @@
+@import url("base.css");
+header{
+	width: 100%;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	
+}
+header .box1{
+	width: 1190px;
+	height: 90px;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .box1 .a1{
+	display: block;
+	width: 241px;
+	height: 40px;
+}
+header .box1 .a1 .box11{
+	
+	width: 241px;
+	height: 40px;
+	background: url("../img/tu1.png") no-repeat center;
+	background-size: 241px 40px;
+}
+header .box1 .box12{
+	width: 70px;
+	height: 70px;
+	background: url("../img/tu2.jpg") no-repeat center;
+	background-size: 70px 70px;
+}
+nav{
+	width: 100%;
+	height: 48px;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+}
+nav .box2{
+	width: 1190px;
+	height: 48px;
+	
+
+}
+nav .box2 ul{
+	display: block;
+	width: auto;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+nav .box2 ul li{
+	width: 128px;
+	height: 100%;
+}
+nav .box2 ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #c4c4c4;
+	font-size: 14px;
+	line-height: 48px;
+	text-align: center;
+}
+nav .box2 ul li a:hover{
+	color: #fff;
+}
+.section1{
+	width: 1200px;
+	height: 668px;
+	margin: 100px auto;
+	
+	display: flex;
+	justify-content: space-between;
+}
+.section1 .box1{
+	width: 810px;
+	height: 465px;
+	
+}
+.section1 .box2{
+	width: 290px;
+	height: 668px;
+	
+}
+.section1 .box1 h2{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 26px;
+	color: #191919;
+	line-height: 42px;
+}
+.section1 .box1 h3{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	color: #000;
+	line-height: 21px;
+	margin-top: 20px;
+}
+.section1 .box1 h4{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	color: rgb(128, 128, 128);
+	line-height: 25px;
+	margin-top: 65px;
+}
+.section1 .box1 .b11{
+	width: 100%;
+	height: 43px;
+	margin-top: 23px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+.section1 .box1 .b11 .b111{
+	width: 50%;
+	height: 100%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section1 .box1 .b11 .b111 .a1{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	color: #606060;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
+}
+.section1 .box1 .b12{
+	width: 100%;
+	height: 26px;
+	margin-top: 19px;
+	
+	display: flex;
+	justify-content: flex-start;
+}
+.section1 .box1 .b12 h5{
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	color: #000;
+	line-height: 26px;
+}
+.section1 .box1 .b12 .a2{
+	display: block;
+	width: 18px;
+	height: 18px;
+	box-sizing: border-box;
+	border: 1px solid #7bc549;
+	margin: 4px;
+	
+	border-radius: 50%;
+}
+.section1 .box1 .b12 .a2 i{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 16px;
+	color: green;
+
+}
+/* .section1 .box1 .b12 .a2 i:nth-child(1){
+	
+} */
+.section1 .box1 .b12 .a2 i:nth-child(2){
+	color: blue;
+}
+.section1 .box1 .b12 .a2 i:nth-child(3){
+	color: red;
+}
+.section1 .box2 .b21{
+	width: 100%;
+	height: 58px;
+	
+	box-sizing: border-box;
+	border-bottom: 1px solid #e5e5e5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section1 .box2 .b21 .b211{
+	width: 279px;
+	height: 42px;
+	
+}
+.section1 .box2 .b21 .b211 .a3{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 15px;
+	color: #373A41;
+	line-height: 15px;
+}
+.section1 .box2 .b21 .b211 h6{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #bfbfbf;
+	line-height: 12px;
+	margin-top: 10px;
+}
